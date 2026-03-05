@@ -1,0 +1,27 @@
+{
+  "name": "odin-basic-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "commit": "git add . && git commit -m \"commit\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reverse-smartass/odin-basic-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/reverse-smartass/odin-basic-node/issues"
+  },
+  "homepage": "https://github.com/reverse-smartass/odin-basic-node#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
+}
