@@ -1,8 +1,8 @@
 <header>
   <nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
+     <% pages.forEach((page) => { %>
+        <a href="<%= page.path %>"><%= page.name %></a>
+    <% }); %>
     <a href="/falsy">Falsy</a>
   </nav>
 </header>
